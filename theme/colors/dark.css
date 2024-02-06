@@ -38,6 +38,7 @@
 		--gnome-tabbar-tab-active-background: #000000; /* Pure Black */
 		--gnome-tabbar-tab-active-background-contrast: #000000; /* Pure Black */
 		--gnome-tabbar-tab-active-hover-background: #000000; /* Pure Black */
+		--gnome-tabbar-tab-active-outline: white; /* White outline for active tab */
 		
 		--gnome-tabbar-identity-color-green: var(--gnome-palette-green-1);
 		--gnome-tabbar-identity-color-yellow: var(--gnome-palette-yellow-2);
@@ -75,6 +76,4 @@
 	:root[privatebrowsingmode="temporary"]:-moz-window-inactive {
 		--gnome-headerbar-background: #252F49 !important;
 		--gnome-tabbar-tab-hover-background: #000000; /* Pure Black */
-		--gnome-tabbar-tab-active-background: #000000; /* Pure Black */
-	}
-}
+		--gnome-tabbar-tab-ac
